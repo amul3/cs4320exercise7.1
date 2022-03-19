@@ -3,11 +3,11 @@ import System
 import Professor
 import json
 
-#Tests if the drop_student function drops a student from the correct course
+#Tests if the drop_student function drops a student from the correct course and ensures the student is enrolled in it first
 def test_dropstudent(grading_system):
     staffname = 'calyam'
     staffpassword = '#yeet'
-    course =  'databases'
+    course =  'cloud_computing'
     student = 'akend3'
     if(grading_system.check_password(staffname,staffpassword) == True):
         grading_system.login(staffname,staffpassword)
