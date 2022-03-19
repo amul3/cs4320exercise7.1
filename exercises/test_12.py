@@ -3,6 +3,7 @@ import System
 import Staff
 import json
 
+#FAIL
 #Tests if the create_assignment function only creates an assignment for a course if the user is a staff member for that course
 def test_createassignment2(grading_system):
     staffname = 'calyam'
